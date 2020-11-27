@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qDOPMVEYqdb686MkkaFXF9fxP8CnPGPD+mZE7Mm0XgUR6pIDXaCrCV6gyguEmTqDChWPUr0jCxw89/Apb8iKAQ==",
+  "dgSpecHash": "Fc62n2x0RPxhdPLJHHmIEdC5jb/QGI4c9QEfql7nLeVth4mRIFhvAS759xX2oCwsb19M/xR78RNz524wjO/iDg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
   "expectedPackageFiles": [
@@ -112,7 +112,7 @@
       "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 depends on Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5) but Microsoft.VisualStudio.Utilities.Internal 16.3.5 was not found. An approximate best match of Microsoft.VisualStudio.Utilities.Internal 16.3.23 was resolved.",
       "libraryId": "Microsoft.VisualStudio.Utilities.Internal",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     },
     {
@@ -122,7 +122,7 @@
       "message": "Microsoft.ServiceHub.Client 2.6.92 depends on StreamJsonRpc (>= 2.5.37) but StreamJsonRpc 2.5.37 was not found. An approximate best match of StreamJsonRpc 2.5.44 was resolved.",
       "libraryId": "StreamJsonRpc",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     }
   ]

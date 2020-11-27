@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0-windows7.0": {
       "MessagePack/2.1.90": {
         "type": "package",
         "dependencies": {
@@ -5540,7 +5540,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0-windows7.0": [
       "Microsoft.VisualStudio.Utilities >= 16.7.30329.38"
     ]
   },
@@ -5566,15 +5566,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "projectReferences": {}
         }
       },
@@ -5585,8 +5585,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
         "dependencies": {
           "Microsoft.VisualStudio.Utilities": {
             "target": "Package",
@@ -5626,7 +5626,7 @@
       "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 depends on Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5) but Microsoft.VisualStudio.Utilities.Internal 16.3.5 was not found. An approximate best match of Microsoft.VisualStudio.Utilities.Internal 16.3.23 was resolved.",
       "libraryId": "Microsoft.VisualStudio.Utilities.Internal",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     },
     {
@@ -5636,7 +5636,7 @@
       "message": "Microsoft.ServiceHub.Client 2.6.92 depends on StreamJsonRpc (>= 2.5.37) but StreamJsonRpc 2.5.37 was not found. An approximate best match of StreamJsonRpc 2.5.44 was resolved.",
       "libraryId": "StreamJsonRpc",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     }
   ]
