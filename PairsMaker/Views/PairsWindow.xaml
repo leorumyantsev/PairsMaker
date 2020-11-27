@@ -1,0 +1,45 @@
+﻿<Window x:Class="PairsMaker.Views.PairsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PairsMaker.Views"
+        mc:Ignorable="d"
+        Title="PairsWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="DataGridColumnStyle" TargetType="DataGridCell">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <DataGrid Grid.Column="0" Grid.Row="0" AutoGenerateColumns="False"
+                      ItemsSource="{Binding Path=FirstMembers, UpdateSourceTrigger=PropertyChanged}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="FirstMembers" Width="*" IsReadOnly="True"
+                                        CellStyle="{StaticResource DataGridColumnStyle}"
+                                        Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <DataGrid Grid.Column="1" Grid.Row="0" AutoGenerateColumns="False"
+                      ItemsSource="{Binding Path=SecondMembers, UpdateSourceTrigger=PropertyChanged}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="SecondMembers" Width="*" IsReadOnly="True"
+                                        CellStyle="{StaticResource DataGridColumnStyle}"
+                                        Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>
