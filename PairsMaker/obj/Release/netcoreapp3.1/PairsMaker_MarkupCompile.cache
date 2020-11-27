@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\netcoreapp3.1\
+D:\Projects\Git\PairsMaker\PairsMaker\obj\Release\netcoreapp3.1\
 PairsMaker
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 D:\Projects\Git\PairsMaker\PairsMaker\App.xaml
 2808406059
 
@@ -16,5 +16,5 @@ D:\Projects\Git\PairsMaker\PairsMaker\App.xaml
 213602510087
 Views\MainWindow.xaml;Views\PairsWindow.xaml;
 
-False
+True
 

@@ -5551,11 +5551,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
+      "projectUniqueName": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
       "projectName": "PairsMaker",
-      "projectPath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
+      "projectPath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
       "packagesPath": "C:\\Users\\Леонид\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker\\obj\\",
+      "outputPath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

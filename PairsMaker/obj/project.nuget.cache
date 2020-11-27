@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDF0m1gAQ8g3rFxhA2DF7tJDo+S5TlqgWZ1wX78qRcenA/oMIOnKrgCrL0yppMpi3bpVHsrTBy8j9E3qb5xJFQ==",
+  "dgSpecHash": "qDOPMVEYqdb686MkkaFXF9fxP8CnPGPD+mZE7Mm0XgUR6pIDXaCrCV6gyguEmTqDChWPUr0jCxw89/Apb8iKAQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
+  "projectFilePath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Леонид\\.nuget\\packages\\messagepack\\2.1.90\\messagepack.2.1.90.nupkg.sha512",
     "C:\\Users\\Леонид\\.nuget\\packages\\messagepack.annotations\\2.1.90\\messagepack.annotations.2.1.90.nupkg.sha512",
