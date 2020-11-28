@@ -10,6 +10,21 @@ namespace PairsMaker.ViewModels
         {
             Initializing();
 
+            FillMembersCollections(pairs);
+        }
+
+        public ObservableCollection<Member> FirstMembers { get; set; }
+
+        public ObservableCollection<Member> SecondMembers { get; set; }
+
+        private void Initializing()
+        {
+            FirstMembers = new ObservableCollection<Member>();
+            SecondMembers = new ObservableCollection<Member>();
+        }
+
+        private void FillMembersCollections(IList<Pair> pairs)
+        {
             foreach (var pair in pairs)
             {
                 var firstMember = new Member()
@@ -26,16 +41,6 @@ namespace PairsMaker.ViewModels
 
                 SecondMembers.Add(secondMember);
             }
-        }
-
-        public ObservableCollection<Member> FirstMembers { get; set; }
-
-        public ObservableCollection<Member> SecondMembers { get; set; }
-
-        private void Initializing()
-        {
-            FirstMembers = new ObservableCollection<Member>();
-            SecondMembers = new ObservableCollection<Member>();
         }
     }
 }
