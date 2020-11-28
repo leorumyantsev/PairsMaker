@@ -28,7 +28,6 @@
                       ItemsSource="{Binding Path=FirstMembers, UpdateSourceTrigger=PropertyChanged}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="FirstMembers" Width="*" IsReadOnly="True"
-                                        CellStyle="{StaticResource DataGridColumnStyle}"
                                         Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
                 </DataGrid.Columns>
 
@@ -38,7 +37,6 @@
                       ItemsSource="{Binding Path=SecondMembers, UpdateSourceTrigger=PropertyChanged}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="SecondMembers" Width="*" IsReadOnly="True"
-                                        CellStyle="{StaticResource DataGridColumnStyle}"
                                         Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
                 </DataGrid.Columns>
 

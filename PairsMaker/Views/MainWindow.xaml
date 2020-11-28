@@ -36,7 +36,6 @@
                       ItemsSource="{Binding Path=Members, UpdateSourceTrigger=PropertyChanged}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Members" Width="*"
-                                        CellStyle="{StaticResource DataGridColumnStyle}"
                                         Binding="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}"/>
                 </DataGrid.Columns>
 
