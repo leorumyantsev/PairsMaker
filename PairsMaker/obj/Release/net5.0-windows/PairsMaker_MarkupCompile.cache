@@ -12,9 +12,9 @@ TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 D:\Projects\Git\PairsMaker\PairsMaker\App.xaml
 72046616204
 
-91248175310
+111493245123
 2161059451604
 Views\MainWindow.xaml;Views\PairsWindow.xaml;Views\Styles\ColorsDictionary.xaml;Views\Styles\CustomButtonStyle.xaml;Views\Styles\CustomDataGridStyle.xaml;Views\Styles\CustomStylesDictionary.xaml;Views\Styles\SeparateGridDefinitionStyle.xaml;
 
-False
+True
 

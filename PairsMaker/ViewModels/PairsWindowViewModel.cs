@@ -4,7 +4,7 @@ using PairsMaker.Models;
 
 namespace PairsMaker.ViewModels
 {
-    public class PairsWindowViewModel
+    public class PairsWindowViewModel : ViewModelBase
     {
         public PairsWindowViewModel(IList<Pair> pairs)
         {

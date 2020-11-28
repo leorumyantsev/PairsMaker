@@ -9,7 +9,7 @@ using PairsMaker.Views;
 
 namespace PairsMaker.ViewModels
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel : ViewModelBase
     {
         public MainWindowViewModel()
         {
