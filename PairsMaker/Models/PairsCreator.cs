@@ -19,14 +19,12 @@ namespace PairsMaker.Models
                 if (members.Count > 0)
                 {
                     var firstMemberIndex = random.Next(members.Count);
-                    pair.FirstMemberIndex = firstMemberIndex;
                     pair.FirstMember.Name = members[firstMemberIndex].Name;
                     members.RemoveAt(firstMemberIndex);
 
                     if (members.Count > 0)
                     {
                         var secondMemberIndex = random.Next(members.Count);
-                        pair.SecondMemberIndex = secondMemberIndex;
                         pair.SecondMember.Name = members[secondMemberIndex].Name;
                         members.RemoveAt(secondMemberIndex);
                     }

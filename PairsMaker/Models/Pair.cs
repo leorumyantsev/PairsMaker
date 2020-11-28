@@ -11,10 +11,6 @@
 
         public Member SecondMember { get; set; }
 
-        public int FirstMemberIndex { get; set; }
-
-        public int SecondMemberIndex { get; set; }
-
         private void Initializing()
         {
             FirstMember = new Member();

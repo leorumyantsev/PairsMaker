@@ -31,24 +31,16 @@ namespace PairsMaker.ViewModels
 
         #region Commands
 
-        public ICommand AddMemberCommand { get; private set; }
-
         public ICommand MakePairsCommand { get; private set; }
 
         #endregion
 
         private void CreateCommands()
         {
-            AddMemberCommand = new DelegateCommand(DoAddMember);
             MakePairsCommand = new DelegateCommand(DoMakePairs);
         }
 
         #region CommandMethods
-
-        private void DoAddMember()
-        {
-            Members.Add(new Member());
-        }
 
         private void DoMakePairs()
         {
