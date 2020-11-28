@@ -18,5 +18,20 @@
     <Page Update="Views\PairsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Styles\ColorsDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\CustomButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\CustomDataGridStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\CustomStylesDictionary.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Styles\SeparateGridDefinitionStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>
