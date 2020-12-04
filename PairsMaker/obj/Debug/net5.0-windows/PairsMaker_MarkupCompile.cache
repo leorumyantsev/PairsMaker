@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Projects\Git\PairsMaker\PairsMaker\App.xaml
-72046616204
+8-763269753
 
 111493245123
 2161059451604
-Views\MainWindow.xaml;Views\PairsWindow.xaml;Views\Styles\ColorsDictionary.xaml;Views\Styles\CustomButtonStyle.xaml;Views\Styles\CustomDataGridStyle.xaml;Views\Styles\CustomStylesDictionary.xaml;Views\Styles\SeparateGridDefinitionStyle.xaml;
+Views\MainWindow.xaml;Views\PairsWindow.xaml;Views\Styles\ColorsButtonDictionary.xaml;Views\Styles\ColorsDataGridDictionary.xaml;Views\Styles\CustomButtonStyle.xaml;Views\Styles\CustomDataGridStyle.xaml;Views\Styles\CustomStylesDictionary.xaml;Views\Styles\SeparateGridDefinitionStyle.xaml;
 
 False
 

@@ -121,8 +121,9 @@ D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\PairsMaker.dll
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\ref\PairsMaker.dll
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\PairsMaker.pdb
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\PairsMaker.genruntimeconfig.cache
-D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\ColorsDictionary.baml
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\CustomButtonStyle.baml
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\CustomStylesDictionary.baml
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\SeparateGridDefinitionStyle.baml
 D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\CustomDataGridStyle.baml
+D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\ColorsButtonDictionary.baml
+D:\Projects\Git\PairsMaker\PairsMaker\obj\Debug\net5.0-windows\Views\Styles\ColorsDataGridDictionary.baml
