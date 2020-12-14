@@ -1,10 +1,8 @@
-﻿using PairsMaker.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using Microsoft.VisualStudio.PlatformUI;
+using PairsMaker.Models;
 using PairsMaker.Views;
 
 namespace PairsMaker.ViewModels
@@ -24,16 +22,16 @@ namespace PairsMaker.ViewModels
 
         public PairsCreator PairsCreator { get; }
 
-        private void Initializing()
-        {
-            Members = new ObservableCollection<Member>();
-        }
-
         #region Commands
 
         public ICommand MakePairsCommand { get; private set; }
 
         #endregion
+
+        private void Initializing()
+        {
+            Members = new ObservableCollection<Member>();
+        }
 
         private void CreateCommands()
         {
@@ -53,6 +51,5 @@ namespace PairsMaker.ViewModels
         }
 
         #endregion
-
     }
 }
