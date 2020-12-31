@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d8APvUzl1dSKRVXGpfAH4L4KBlEiOYCtXNcHRJVw1CubKIP/3oiwqNZr8Y9vdgrcsyGFooy+8sQOF1n1ibvm1A==",
+  "dgSpecHash": "Au77A7KbsRk+cfhzLtkm6MnbvOBahmmLw8Yq6IbVuttaadoukjVh9Fq0dBAEn5cLPa2cEaBQ6tO9wV+ZS2zW3w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Git\\PairsMaker\\PairsMaker\\PairsMaker.csproj",
   "expectedPackageFiles": [
@@ -109,7 +109,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 depends on Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5) but Microsoft.VisualStudio.Utilities.Internal 16.3.5 was not found. An approximate best match of Microsoft.VisualStudio.Utilities.Internal 16.3.23 was resolved.",
+      "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 зависит от Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5), но Microsoft.VisualStudio.Utilities.Internal 16.3.5 не найден. Использовано наилучшее приближенное соответствие Microsoft.VisualStudio.Utilities.Internal 16.3.23.",
       "libraryId": "Microsoft.VisualStudio.Utilities.Internal",
       "targetGraphs": [
         "net5.0-windows7.0"
@@ -119,7 +119,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.ServiceHub.Client 2.6.92 depends on StreamJsonRpc (>= 2.5.37) but StreamJsonRpc 2.5.37 was not found. An approximate best match of StreamJsonRpc 2.5.44 was resolved.",
+      "message": "Microsoft.ServiceHub.Client 2.6.92 зависит от StreamJsonRpc (>= 2.5.37), но StreamJsonRpc 2.5.37 не найден. Использовано наилучшее приближенное соответствие StreamJsonRpc 2.5.44.",
       "libraryId": "StreamJsonRpc",
       "targetGraphs": [
         "net5.0-windows7.0"

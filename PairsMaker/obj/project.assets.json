@@ -5566,7 +5566,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -5607,9 +5607,6 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.WindowsDesktop.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.WindowsDesktop.App.WPF": {
             "privateAssets": "none"
           }
@@ -5623,7 +5620,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 depends on Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5) but Microsoft.VisualStudio.Utilities.Internal 16.3.5 was not found. An approximate best match of Microsoft.VisualStudio.Utilities.Internal 16.3.23 was resolved.",
+      "message": "Microsoft.VisualStudio.RemoteControl 16.3.23 зависит от Microsoft.VisualStudio.Utilities.Internal (>= 16.3.5), но Microsoft.VisualStudio.Utilities.Internal 16.3.5 не найден. Использовано наилучшее приближенное соответствие Microsoft.VisualStudio.Utilities.Internal 16.3.23.",
       "libraryId": "Microsoft.VisualStudio.Utilities.Internal",
       "targetGraphs": [
         "net5.0-windows7.0"
@@ -5633,7 +5630,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Microsoft.ServiceHub.Client 2.6.92 depends on StreamJsonRpc (>= 2.5.37) but StreamJsonRpc 2.5.37 was not found. An approximate best match of StreamJsonRpc 2.5.44 was resolved.",
+      "message": "Microsoft.ServiceHub.Client 2.6.92 зависит от StreamJsonRpc (>= 2.5.37), но StreamJsonRpc 2.5.37 не найден. Использовано наилучшее приближенное соответствие StreamJsonRpc 2.5.44.",
       "libraryId": "StreamJsonRpc",
       "targetGraphs": [
         "net5.0-windows7.0"

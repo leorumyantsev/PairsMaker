@@ -14,8 +14,10 @@ namespace PairsMaker.ViewModels
         }
 
         public ObservableCollection<Member> FirstMembers { get; set; }
+        
 
         public ObservableCollection<Member> SecondMembers { get; set; }
+        
 
         private void Initializing()
         {
